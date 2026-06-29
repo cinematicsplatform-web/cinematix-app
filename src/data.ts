@@ -1,51 +1,62 @@
 import { Movie, Device, FaqItem, Feature, AppScreenshot } from "./types";
 
-export const APP_LOGO_URL = "/src/assets/images/ic.logo.png";
-export const WEBSITE_LOGO_URL = "/src/assets/images/logo.png";
-export const APP_MOCKUP_URL = "/src/assets/images/my_new_hero.png";
+import icLogo from "./assets/images/ic.logo.png";
+import logo from "./assets/images/logo.png";
+import myNewHero from "./assets/images/my_new_hero.png";
+import img1 from "./assets/images/1.jpg";
+import img2 from "./assets/images/2.jpg";
+import img3 from "./assets/images/3.jpg";
+import img4 from "./assets/images/4.jpg";
+import img5 from "./assets/images/5.jpg";
+import img6 from "./assets/images/6.jpg";
+import img7 from "./assets/images/7.jpg";
+
+export const APP_LOGO_URL = icLogo;
+export const WEBSITE_LOGO_URL = logo;
+export const APP_MOCKUP_URL = myNewHero;
 
 export const APP_SCREENSHOTS: AppScreenshot[] = [
   {
     id: "screen-1",
     title: "لقطة شاشة 1",
     description: "لقطة شاشة 1 من التطبيق",
-    image: "/src/assets/images/1.jpg",
+    image: img1,
   },
   {
     id: "screen-2",
     title: "لقطة شاشة 2",
     description: "لقطة شاشة 2 من التطبيق",
-    image: "/src/assets/images/2.jpg",
+    image: img2,
   },
   {
     id: "screen-3",
     title: "لقطة شاشة 3",
     description: "لقطة شاشة 3 من التطبيق",
-    image: "/src/assets/images/3.jpg",
+    image: img3,
   },
   {
     id: "screen-4",
     title: "لقطة شاشة 4",
     description: "لقطة شاشة 4 من التطبيق",
-    image: "/src/assets/images/4.jpg",
+    image: img4,
   },
   {
     id: "screen-5",
     title: "لقطة شاشة 5",
     description: "لقطة شاشة 5 من التطبيق",
-    image: "/src/assets/images/5.jpg",
+    image: img5,
   },
   {
     id: "screen-6",
     title: "لقطة شاشة 6",
     description: "لقطة شاشة 6 من التطبيق",
-    image: "/src/assets/images/6.jpg",
+    image: img6,
   },
   {
     id: "screen-7",
     title: "لقطة شاشة 7",
     description: "لقطة شاشة 7 من التطبيق",
-    image: "/src/assets/images/7.jpg",
+    image: img7,
   },
 ];
 
