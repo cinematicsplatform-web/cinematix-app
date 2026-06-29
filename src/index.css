@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: "Cairo", system-ui, -apple-system, sans-serif;
+  --font-tajawal: "Tajawal", system-ui, -apple-system, sans-serif;
+  
+  --color-cinematix-dark: #0B0F19;
+  --color-cinematix-darker: #070A11;
+  --color-cinematix-card: #131A2C;
+  --color-cinematix-cyan: #00F0FF;
+  --color-cinematix-blue: #0085FF;
+}
+
+/* Custom scrollbar for dark modern feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F293D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2D3D5C;
+}
+
+/* Base typography utilities */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}

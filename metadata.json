@@ -1,0 +1,6 @@
+{
+  "name": "Cinematix",
+  "description": "الموقع الرسمي لتحميل تطبيق سينماتيكس - عالم الترفيه بين إيديك. تطبيق البث الأحدث للأفلام والمسلسلات بجودة عالية وترجمة عربية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
