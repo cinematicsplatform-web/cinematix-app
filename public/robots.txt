@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the URL below with your actual domain name once you have one
+Sitemap: https://cinematix-app.vercel.app/sitemap.xml
