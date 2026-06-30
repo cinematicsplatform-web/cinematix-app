@@ -1,5 +1,9 @@
 User-agent: *
 Allow: /
 
-# Replace the URL below with your actual domain name once you have one
+# Sitemaps for different active domains to ensure Google crawling succeeds
+Sitemap: https://www.cinematix.watch/sitemap.xml
+Sitemap: https://cinematix.watch/sitemap.xml
+Sitemap: https://cinematix.app/sitemap.xml
+Sitemap: https://www.cinematix.app/sitemap.xml
 Sitemap: https://cinematix-app.vercel.app/sitemap.xml
