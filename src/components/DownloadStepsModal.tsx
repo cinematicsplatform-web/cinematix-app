@@ -25,7 +25,7 @@ export default function DownloadStepsModal({ isOpen, onClose, platform }: Downlo
     },
     {
       title: "تثبيت ملف الـ APK",
-      description: "افتح مدير الملفات أو قائمة التنزيلات في متصفحك واضغط على ملف `cinematix.apk` الذي تم تنزيله، ثم اختر 'تثبيت' (Install).",
+      description: "افتح مدير الملفات أو قائمة التنزيلات في متصفحك واضغط على ملف `Cinematix-v1.0.apk` الذي تم تنزيله، ثم اختر 'تثبيت' (Install).",
       note: "عملية التثبيت لن تستغرق أكثر من 10 ثوانٍ.",
     },
     {
@@ -63,8 +63,8 @@ export default function DownloadStepsModal({ isOpen, onClose, platform }: Downlo
       if (platform === "android") {
         // Trigger actual download of the APK file placed in the /public folder
         const link = document.createElement("a");
-        link.href = "/cinematix-v1.apk";
-        link.download = "cinematix-v1.apk";
+        link.href = "/Cinematix-v1.0.apk";
+        link.download = "Cinematix-v1.0.apk";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
