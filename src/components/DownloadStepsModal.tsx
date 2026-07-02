@@ -61,9 +61,9 @@ export default function DownloadStepsModal({ isOpen, onClose, platform }: Downlo
       setActiveStep(prev => prev + 1);
     } else {
       if (platform === "android") {
-        // Trigger actual download of the APK file placed in the /public folder
+        // Trigger actual download of the APK file from GitHub releases
         const link = document.createElement("a");
-        link.href = "/Cinematix-v1.0.apk";
+        link.href = "https://github.com/cinematicsplatform-web/cinematix-app/releases/download/v1.0.0/Cinematix-v1.0.apk";
         link.download = "Cinematix-v1.0.apk";
         document.body.appendChild(link);
         link.click();
